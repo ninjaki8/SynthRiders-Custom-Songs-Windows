@@ -1,21 +1,20 @@
 # SynthriderzMapUpdateTool
-Synthriders Custom Songs Update CLI Tool is a console application created with .net that downloads custom beatmaps from synthriderz.com website and uploads it to your headset
+Synthriders Map Update Tool is a .NET console app that keeps your device up to date with all custom beatmaps from synthriderz.com
 
+## Requirements
+- May require developer mode enabled
+- For the first use you have to allow the adb connection for the pc you are connecting it through the headset (only once per pc)
+- The device must have Synthriders application installed and "CustomSongs" folder already created
+  
 ## Features
-- Support for devices over ADB connection
-- Does not need for the connection to be allowed from the VR headset once plugged in to your PC
-- Parallel downloading for fetching beatmaps
-- Simple & Fast
+- Uses ADB connection instead of MTP
+- Fast
 
 ## Supported OS
-- Windows 10
-- Windows 11
+- Windows
 
 ## Supported Devices
-- Quest 3
-- Any device that can connect through ADB and has synthriders installed with "CustomSongs" folder
+- Any device that can connect through ADB
 
 ## Download
 [SynthriderzMapUpdateTool.exe](https://github.com/ninjaki8/SynthriderzMapUpdateTool/releases/download/win-x64/SynthriderzMapUpdateTool.exe)
-
-
