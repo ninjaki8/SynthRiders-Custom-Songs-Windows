@@ -1,20 +1,19 @@
-# SynthriderzMapUpdateTool
-Synthriders Map Update Tool is a .NET console app that keeps your device up to date with all custom beatmaps from synthriderz.com
+## SynthRiders - Custom Songs Downloader for Windows
+This tool scans the CustomSongs folder on your Quest 3 device and downloads any missing songs from the entries in synthriderz.com/api.
 
-## Requirements
-- May require developer mode enabled
-- For the first use you have to allow the adb connection for the pc you are connecting it through the headset (only once per pc)
-- The device must have Synthriders application installed and "CustomSongs" folder already created
-  
-## Features
-- Uses ADB connection instead of MTP
-- Fast
-
-## Supported OS
+### Requirements
+- Debug Mode Enabled
 - Windows
+- Synthriders VR Game
+- CustomSongs Folder
+  
+### Installation
+- Run the exe file
 
-## Supported Devices
-- Any device that can connect through ADB
+**Note: The first time you plugin the device to your PC you need you to accept the debug dialog through your headset in order for the adb server to detect it (this has to be done only once), after that you only plug in the usb cable and run the app. 
 
-## Download
-[SynthriderzMapUpdateTool.exe](https://github.com/ninjaki8/SynthriderzMapUpdateTool/releases/download/win-x64/SynthriderzMapUpdateTool.exe)
+First Time Example
+- Plug-in the device
+- Run the app (it wont show the device yet but leave it running)
+- Accept the popup debug dialog in the headset
+- Close the app and run it again
